@@ -14,14 +14,14 @@ config = {
         url: 'http://my-ghost-blog.com',
         mail: {
             transport: 'SMTP',
-                options: {
-                    service: 'Mailgun',
-                    auth: {
-                        user: 'postmaster@mg.startics.com',
-                        pass: 'b842eacd11f8a9ebf43ec6fc9698aa0a'
-                    }
+            options: {
+                service: 'Mailgun',
+                auth: {
+                    user: 'postmaster@mg.startics.com',
+                    pass: 'b842eacd11f8a9ebf43ec6fc9698aa0a'
                 }
             }
+        },
         database: {
             client: 'sqlite3',
             connection: {
